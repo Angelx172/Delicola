@@ -12,7 +12,7 @@
 </head>
 <body>
     <?php
-        include "header.html"
+        include "header.php"
     ?>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
   <div class="carousel-inner" style="max-height: 66vh;">
@@ -36,7 +36,7 @@
   </button>
 </div>
     <?php
-        include "footer.html"
+        include "footer.php"
     ?>
 </body>
 </html>

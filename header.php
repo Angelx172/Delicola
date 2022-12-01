@@ -10,19 +10,15 @@
               <li><a class="dropdown-item" href="sustentabilidad.php">Sustentabilidad</a></li>
               <li><a class="dropdown-item" href="novedades.php">Novedades</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Politicas</a></li>
-              <li><a class="dropdown-item" href="#">Promociones</a></li>
-              <li><a class="dropdown-item" href="#">Contacto</a></li>
+              <li><a class="dropdown-item" href="politicas.php">Politicas</a></li>
+              <li><a class="dropdown-item" href="productos.php">Productos</a></li>
+              <li><a class="dropdown-item" href="contacto.php">Contacto</a></li>
             </ul>
           </li>
           <li style="list-style-type: none; margin-left: 83px;" >
-            <img src="logo2.png" class="logo" alt="">
+            <a href="index.php"><img src="logo2.png" class="logo" alt=""></a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
       </div>
     </div>
   </nav>

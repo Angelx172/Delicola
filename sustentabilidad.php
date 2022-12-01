@@ -12,25 +12,24 @@
 </head>
 <body>
     <?php
-        include "header.html"
+        include "header.php"
     ?>
     <div class="container col-6" style="margin-top: 3vh; text-align: center;">
         <h3>Sustentabilidad</h3>
     </div>
-    <div class="container col-6" style="margin-top: 3vh; text-align: center; margin-right: 42vh;">
+    <div class="container col-6" style="margin-top: 3vh; text-align: center; margin-left: 55vh;">
         <div class="card" style="width: 28rem; border: solid 20px; border-color: #f753a4; border-radius: 5%;">
-                <img src="all.jpg" class="card-img-top" alt="...">
             <div class="card-body">
+                <div  class="reci"><img class="reci" src="img/reci.png" style="width: 18rem;" alt=""></div>
                 <h5 class="card-title">Hoy reciclamos 6 de cada 10 botellas</h5>
                 <p class="card-text">Actuamos para crear un futuro más sostenible y compartido con todos. Marcamos diferencia en la vida de las personas, las comunidades y nuestro planeta haciendo negocios de la manera correcta.</p>
-                <a href="#" class="btn btn-primary">Ver mas...</a>
             </div>
         </div>
         
     </div>
     <br><br>
     <?php
-        include "footer.html"
+        include "footer.php"
     ?>
 </body>
 </html>
