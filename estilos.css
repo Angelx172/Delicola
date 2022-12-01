@@ -1,0 +1,103 @@
+.logo{
+    width: 25%;
+    margin-right: 5%;
+}
+.opciones{
+    width: 20%;
+}
+.franja{
+    height: 1%;
+    width: 100%;
+    background-color: #f753a4;
+    text-decoration-color: #f753a4;
+    color: #f753a4;
+}
+body{
+    margin: 0;
+    background-color: burlywood;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.card img{
+  margin-top: 10px;
+  margin-left: 55px;
+  width: 30vh;
+  height: 50vh;
+}
+
+.franja_abajo{
+    height: 1%;
+    width: 100%;
+    background-color: #f753a4;
+    text-decoration-color: #f753a4;
+    color: #f753a4;
+}
+.pie{
+    background-color: black;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+
+  }
+.politica{
+  margin-left: 55vh;
+  align-content: center;
+  text-align: justify;
+  height: auto;
+  width: 50%;
+  background-color: rgb(231, 212, 186);
+  border: solid 8px;
+  border-color: #f753a4;
+  border-radius: 10px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.container img{
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 150px;
+}
+.container label{
+  text-align: center;
+  width: 200px;
+  word-wrap: break-word;
+}
+.con{
+  margin-left: 55vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.what{
+  margin-left: 30vh;
+  width: auto;
+  height: 20vh;
+}
+.numero{
+  margin-left: 5vh;
+  font-size: 50px;
+}
